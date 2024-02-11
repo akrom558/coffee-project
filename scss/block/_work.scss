@@ -1,0 +1,135 @@
+.work__title {
+    color: #83888f;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.box {
+    max-width: 760px;
+    height: 2px;
+    background-color: rgb(253, 214, 186);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 45px;
+
+
+    span {
+        display: block;
+        width: 31px;
+        height: 31px;
+        box-sizing: border-box;
+        border: 2px solid #0e8784;
+        background-color: #fefcf7;
+        border-radius: 50%;
+
+    }
+}
+.box{
+    display: none;
+}
+.work__list{
+    text-align: center;
+}
+.work__number{
+    color: #fdd6ba;
+font-family: Fraunces 9pt;
+font-size: 72px;
+font-weight: 900;
+line-height: 72px;
+letter-spacing: 0px;
+text-align: center;
+padding-bottom: 24px;
+}
+.work__sub_title{
+    color: rgb(51, 61, 75);
+font-family: Fraunces 9pt;
+font-size: 28px;
+font-weight: 900;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: center;
+padding-bottom: 24px;
+}
+.work__text{
+    color: rgb(51, 61, 75);
+font-family: Barlow;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: center;
+padding-bottom: 56px;
+}
+.work__list{
+    margin-bottom: 79px;
+}
+.work__btn{
+    color: rgb(254, 252, 247);
+font-family: Fraunces 9pt;
+font-size: 18px;
+font-weight: 900;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: center;
+border-radius: 6px;
+background-color: var(--primary-color);
+padding: 15px 31px 16px 31px;
+display: block;
+border:none;
+margin-bottom: 120px;
+}
+.work__block{
+    max-width: 1045px;
+}
+.work__list{
+    gap: 50px;
+}
+@media screen and (min-width:768px){
+   .box{
+    display: inline-block;
+   } 
+   .work__list{
+    display: flex;
+   }
+   .box {
+    max-width: 760px;
+    height: 2px;
+    background-color: rgb(253, 214, 186);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 45px;
+
+
+    span {
+        display: block;
+        width: 31px;
+        height: 31px;
+        box-sizing: border-box;
+        border: 2px solid #0e8784;
+        background-color: #fefcf7;
+        border-radius: 50%;
+
+    }
+}
+.work__number{
+    text-align:left;
+}
+.work__sub_title{
+    text-align:left;
+
+}
+.work__text{
+    text-align:left;
+
+}
+.work__title{
+    text-align:left;
+
+}
+}

@@ -1,0 +1,40 @@
+.header__block{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px;
+margin-bottom: 40px;
+
+
+}
+.header__list{
+    display: none;
+}
+.header__menu{
+    background-image: url(/images/munu.svg);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 17px;
+    height: 17px;
+    border:none;
+    max-width: 100%;
+
+}
+
+@media screen and (min-width:768px) {
+    .header__menu{
+        display: none;
+    }
+    .header__list{
+        display: block;
+        display: flex;
+    }
+    .header__item{
+        margin-right: 50px;
+
+    }
+    .header__menu{
+        background-image: url(/images/PC_header.svg);
+    }
+
+}
